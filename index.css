@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+div {
+    vertical-align: top;
+}
+
+.heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+h5 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    display: inline-flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#game {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#difficulty {
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#board {
+    min-width: 100%;
+    text-align: center;
+}
+
+.cell {
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    display: inline-block;
+    background-color: gray;
+    line-height: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.cell:hover {
+    background-color: slategray;
+    cursor: pointer;
+}
+
+.row {
+    min-width: 100%;
+}
+
+#status button {
+    margin-left: 12%;
+    padding: 1%;
+    cursor: pointer;
+}
